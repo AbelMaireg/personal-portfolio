@@ -4,14 +4,15 @@ const experiences = [
     title: "Mamito",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim animi sapiente magnam, numquam maxime asperiores nulla, expedita consequuntur incidunt assumenda, obcaecati voluptatem illo eveniet fugiat? Libero beatae aliquam quis vero.",
-    badges: ["Nestjs", "Nginx", "MySQL"],
+    badges: ["nestjs", "nginx", "mysql", "prisma", "docker"],
+    goto: "mamitoapp.com",
   },
 
   {
     title: "Endeavour",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim animi sapiente magnam, numquam maxime asperiores nulla, expedita consequuntur incidunt assumenda, obcaecati voluptatem illo eveniet fugiat? Libero beatae aliquam quis vero.",
-    badges: ["Nestjs", "Nginx", "MySQL"],
+    badges: ["nodejs", "express", "mysql"],
   },
 ]
 </script>
@@ -21,10 +22,11 @@ const experiences = [
     <p class="text-4xl">Experiences</p>
     <div class="flex flex-col gap-2">
       <ExperienceCard
-        v-for="{ title, description, badges } in experiences"
+        v-for="{ title, description, badges, goto } in experiences"
         :title="title"
         :description="description"
         :badges="badges"
+        :goto="goto"
       />
     </div>
   </div>
