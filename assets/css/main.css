@@ -119,7 +119,8 @@
 
   body {
     @apply bg-gray-700 text-foreground;
-    width: 1024px;
+    max-width: 1024px;
     margin: 12px auto;
+    padding: 20px;
   }
 }
