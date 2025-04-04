@@ -10,9 +10,13 @@ defineProps<{
 
 <template>
   <Card>
-    <CardHeader>{{ title }}</CardHeader>
-    <CardContent>{{ description }}</CardContent>
-    <CardFooter class="justify-between mr-3">
+    <CardHeader>
+      <h2 class="text-2xl">{{ title }}</h2>
+    </CardHeader>
+    <CardContent>
+      <p class="text-justify px-6">{{ description }}</p>
+    </CardContent>
+    <CardFooter class="justify-between">
       <ExperienceLeftBottomPanel :goto="goto" :source-code="sourceCode" />
       <ExperienceTechBadges :badges="badges" />
     </CardFooter>

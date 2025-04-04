@@ -11,7 +11,7 @@ const experiences = [
   {
     title: "Endeavour",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim animi sapiente magnam, numquam maxime asperiores nulla, expedita consequuntur incidunt assumenda, obcaecati voluptatem illo eveniet fugiat? Libero beatae aliquam quis vero.",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim animi sapiente magnam, numquam maxime asperiores nulla, expedita consequuntur incidunt assumenda, obcaecati voluptatem illo eveniet fugiat? Libero beatae aliquam quis vero. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim animi sapiente magnam, numquam maxime asperiores nulla, expedita consequuntur incidunt assumenda, obcaecati voluptatem illo eveniet fugiat? Libero beatae aliquam quis vero.",
     badges: ["nodejs", "express", "mysql"],
   },
 ]
