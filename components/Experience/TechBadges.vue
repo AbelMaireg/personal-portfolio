@@ -16,6 +16,8 @@ defineProps<{
       <IconDocker v-if="badge == 'docker'" class="icon" />
       <IconNodejs v-if="badge == 'nodejs'" class="icon" />
       <IconExpress v-if="badge == 'express'" class="icon" />
+      <IconCpp v-if="badge == 'cpp'" class="icon" />
+      <IconArduino v-if="badge == 'arduino'" class="icon" />
     </Badge>
   </div>
 </template>

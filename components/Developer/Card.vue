@@ -7,16 +7,15 @@
     <CardContent>
       <div class="content-wrapper flex flex-row-reverse gap-12 p-3">
         <p class="description text-justify">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
-          minima ducimus. Error qui perferendis, excepturi, dolorum corrupti vel
-          nostrum voluptate sunt nihil ipsa deserunt in porro cum nam enim
-          omnis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex
-          odio, vel quisquam alias odit amet cumque, iure ipsam recusandae
-          perspiciatis sequi maxime laborum aspernatur eius expedita natus
-          pariatur ipsa repudiandae Lorem ipsum dolor sit amet, consectetur
-          adipisicing elit. Velit, et consequuntur error impedit vel iste hic
-          saepe obcaecati reprehenderit eius laboriosam nesciunt, rerum eum
-          neque eaque sapiente sint rem aut.
+          I am a software engineer with a passion for building web applications.
+          I have experience in various programming languages and frameworks, and
+          I enjoy learning new technologies. In my free time, I like to
+          contribute to open-source projects and work on personal projects that
+          challenge my skills. I am always looking for opportunities to grow and
+          improve as a developer. I believe in the power of collaboration and
+          teamwork, and I enjoy working with others to create innovative
+          solutions. If you are interested in collaborating or have any
+          questions, feel free to reach out!
         </p>
       </div>
     </CardContent>
