@@ -1,7 +1,7 @@
 <template>
   <Card>
     <CardHeader>
-      <CardTitle><h1>Abel Maireg</h1></CardTitle>
+      <CardTitle><h1 class="text-3xl">Abel Maireg</h1></CardTitle>
       <CardDescription>Software Engineer</CardDescription>
     </CardHeader>
     <CardContent>
